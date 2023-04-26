@@ -26,4 +26,10 @@ jobs:
           VAR2: Github Actions
         run: echo $VAR1 $VAR2
         
+ terceiro:
+    runs-on: ubuntu-latest
+    steps:
+      - run: | 
+         echo "${{ github.event_name }} foi disparado"
+         echo " No ${{runner.os}} "
     
