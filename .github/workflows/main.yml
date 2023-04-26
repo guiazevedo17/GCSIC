@@ -12,7 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: Mostrar rodando
-         run: echo teste
+         run: echo "teste"
+       - name: Event
+         run: echo "${{github.event_name}} foi disparado"
     
  segundo:
    runs-on: windows-latest
