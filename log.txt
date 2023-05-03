@@ -1,0 +1,12 @@
+
+> gcsic@1.0.0 test
+> jest
+
+PASS ./multiply.test.js
+  ✓ Caso apenas um numero passado (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        0.103 s, estimated 1 s
+Ran all test suites.
